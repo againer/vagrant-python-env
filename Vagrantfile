@@ -14,7 +14,7 @@ Vagrant.configure("2") do |config|
   # config.vm.network :private_network, ip: "192.168.33.10"
   
   # For shared folders:
-  # config.vm.synced_folder "www", "/var/www"
+  config.vm.synced_folder "./projects", "/project"
 
   # Find extra useful configuration in Vagrant docs:
   # 
